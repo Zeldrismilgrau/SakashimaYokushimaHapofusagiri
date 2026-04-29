@@ -1,4 +1,4 @@
-const { somar, mensagemBoasVindas } = require('./script');
+const { somar, mensagemBoasVindas } = require('./script.js');
 
 test('soma dois números', () => {
   expect(somar(2, 3)).toBe(5);
