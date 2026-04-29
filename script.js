@@ -7,4 +7,3 @@ function mensagemBoasVindas(nome) {
 }
 
 module.exports = { somar, mensagemBoasVindas };
-export default { somar, mensagemBoasVindas };
