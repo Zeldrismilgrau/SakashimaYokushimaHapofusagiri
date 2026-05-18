@@ -36,6 +36,16 @@ describe('Função imparPar', () => {
             .toBe('4 é par e 7 é ímpar');
     });
 
+    test('Verifica dois pares', () => {
+        expect(imparPar(2, 8))
+            .toBe('2 é par e 8 é par');
+    });
+
+    test('Verifica dois ímpares', () => {
+        expect(imparPar(3, 9))
+            .toBe('3 é ímpar e 9 é ímpar');
+    });
+
 });
 
 
@@ -62,7 +72,7 @@ describe('Função verificarVoto', () => {
 describe('Função verificarNumero', () => {
 
     test('Número positivo', () => {
-        expect(verificarNumero(5))
+        expect(verificarNumero(10))
             .toBe('Positivo');
     });
 
@@ -81,17 +91,17 @@ describe('Função verificarNumero', () => {
 
 describe('Função calcularBonus', () => {
 
-    test('20% de bônus', () => {
+    test('Bônus de 20%', () => {
         expect(calcularBonus(1000))
             .toBe(200);
     });
 
-    test('10% de bônus', () => {
+    test('Bônus de 10%', () => {
         expect(calcularBonus(3000))
             .toBe(300);
     });
 
-    test('5% de bônus', () => {
+    test('Bônus de 5%', () => {
         expect(calcularBonus(6000))
             .toBe(300);
     });
@@ -152,6 +162,7 @@ describe('Função calcularMedia', () => {
     });
 
 });
+
 
 describe('Função fazerLogin', () => {
 

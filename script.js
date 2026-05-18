@@ -138,6 +138,7 @@ function fazerLogin(usuario, senha) {
 }
 
 
+// EXPORTAÇÃO CORRETA PARA JEST/NODE
 module.exports = {
     maiorValor,
     imparPar,
