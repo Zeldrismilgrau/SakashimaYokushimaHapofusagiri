@@ -153,7 +153,6 @@ describe('Função calcularMedia', () => {
 
 });
 
-
 describe('Função fazerLogin', () => {
 
     test('Login válido', () => {
